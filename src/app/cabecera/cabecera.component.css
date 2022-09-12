@@ -1,0 +1,15 @@
+header.titulo_principal {
+    background-color: black;
+    padding-left: 13px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-top: -7px;
+    padding-top: -10px;
+  }
+  header.titulo_principal h3{
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+  }

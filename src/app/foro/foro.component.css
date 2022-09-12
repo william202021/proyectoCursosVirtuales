@@ -1,0 +1,86 @@
+table { 
+    border-collapse: collapse;
+     margin: 25px 0; 
+     font-size: 1em; 
+     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color:#173C8D;
+     min-width: 450px; 
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    }
+
+    #titulo{
+
+        color: blue;
+        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color:#173C8D;
+        text-align: center;
+    }
+
+   thead tr { 
+    background-color: blue;
+     color: #ffffff; 
+     text-align: middle;
+     }
+
+     .contenedor{
+        margin-top: 10px;
+          width:100%;
+          height:100px;
+          display: flex;
+          justify-content: center;
+      
+      
+      }
+
+      .boton{
+        background-color:#2196f3;
+       text-decoration: none;
+        border-radius: 6px;
+        background: #2196f3;
+        text-align: center;
+        margin: 20px;
+        width: 5%;
+        min-width: 200px;
+        padding: 10px 30px;
+        font-size: 18px;
+        text-align: center;
+        bottom: 45px;
+        cursor:pointer;
+       
+   
+     }
+
+     #boton{
+        text-align: center;
+        position: relative;
+        
+     }
+
+
+     
+     .form-control { 
+      
+        min-width: 200px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #000;
+        font-size: 18px;
+        text-align: center;
+       
+      }
+
+      .form-invent {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;  
+        
+        padding: auto;
+    
+       
+    
+      }
+    
+    

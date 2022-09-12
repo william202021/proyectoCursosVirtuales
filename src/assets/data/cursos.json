@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name":"Javascript", "time":"10", "url":"../../../assets/imagenes/javascript.png", "descripcion":"Lenguaje del lado del cliente"  },
+    {"id": 2, "name":"python", "time":"20", "url":"../../../assets/imagenes/javascript.png", "descripcion":"Lenguaje propósito general"  },
+    {"id": 3, "name":"Angular", "time":"20", "url":"../../../assets/imagenes/javascript.png", "descripcion":"Framework lado del cliente"   },
+    {"id": 4, "name":"PHP", "time":"20", "url":"../../../assets/imagenes/javascript.png" , "descripcion":"Lenguaje del lado del servidor" },
+    {"id": 5, "name":"CSS3","time":"20", "url":"../../../assets/imagenes/javascript.png",  "descripcion":"Lenguaje de diseño gráfico" }
+  
+  ]

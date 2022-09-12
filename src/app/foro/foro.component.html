@@ -1,0 +1,63 @@
+<h1 id="titulo">Foro Dudas</h1>
+
+
+
+    <div class="contenedor" id="contenido">
+
+<table>
+<thead>
+<tr>
+    <th>Autor</th>
+    <th>Titulo</th>
+    <th>Respuesta</th>
+    <th>Curso</th>
+    <th>Fecha</th>
+
+</tr>
+
+</thead>
+<tbody>
+
+    <tr *ngFor="let item of foros " >
+       
+        <td><i>{{item.autor}}</i></td>
+        <td><i>{{item.titulo}}</i></td>
+        <td><i>{{item.respuestas}}</i></td>
+        <td><i>{{item.curso}}</i></td>
+        <td><i>{{item.fecha}}</i></td>
+       
+
+    </tr>
+</tbody>
+
+</table>
+
+<div id="boton">
+        
+    <button type="button" class="boton"  (click)="mostrar()">Agregar</button>
+
+</div>
+
+    </div>
+    
+    <br>
+
+    <div id="formForo" style="display:none" >
+        <form class="form-invent" id="form" name="form" (ngSubmit)="envioPreguntaForo()"> 
+        <input type="text" name="autor" placeholder="Por favor el titulo de la pregunta " class="form-control" [(ngModel)]="preguntasForo.autor" /><br/><br/>
+        <input type="text" name="titulo" placeholder="Digite el titulo" class="form-control" [(ngModel)]="preguntasForo.titulo"/><br/><br/>
+        <input type="text" name="respuesta" placeholder="Digite la respuesta" class="form-control" [(ngModel)]="preguntasForo.respuesta"/><br/><br/>
+        <input type="text" name="curso" placeholder="Digite curso" class="form-control" [(ngModel)]="preguntasForo.curso"/><br/><br/>
+        <input type="text" name="identificador" placeholder="Digite identificador" class="form-control" [(ngModel)]="preguntasForo.identificador"/><br/><br/>
+   
+   <br/>
+      <button class="boton" type="submit">Registrarse</button>
+
+        </form>
+    </div>
+    
+    
+   
+    
+
+    

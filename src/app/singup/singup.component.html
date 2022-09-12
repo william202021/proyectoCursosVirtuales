@@ -1,0 +1,19 @@
+<div class="contenedor" >
+    <div class="encabezado"><h4>Registro de usuario</h4></div>
+   <form class="form-invent" id="form" name="form" (ngSubmit)="singUp()"> 
+      <br/>
+      
+      <div class="div-int">
+          <input type="text" name="name" placeholder="Por favor indique su nombre completo" class="form-control" [(ngModel)]="singUpUser.name"/><br/><br/>
+          <input type="text" name="email" placeholder="Por favor indique su email" class="form-control" [(ngModel)]="singUpUser.email" /><br/><br/>
+          <input type="password" name="password" placeholder="Digite su contraseña" class="form-control" [(ngModel)]="singUpUser.password" /><br/><br/><br/>
+        <button class="boton" type="submit">Registrarse</button>
+        
+        
+      </div>
+      <div class="input-label">
+                              
+      </div>
+    </form>
+  </div>
+  

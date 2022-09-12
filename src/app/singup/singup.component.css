@@ -1,0 +1,83 @@
+.encabezado{
+    height: 40px;
+    background: #2196f3
+  
+    
+  }
+  
+  
+  
+  h4{
+    padding: 10px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  
+  .form-invent {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;  
+      
+      padding: auto;
+  
+     
+  
+    }
+  
+    input,textarea, button,h4,table, input:active, input:focus, input:focus-within, input:hover, input:visited {
+      
+      font-size: 18px!important;
+    }
+  
+    .form-control { 
+      
+      min-width: 200px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      border: 1px solid #000;
+      font-size: 18px;
+      text-align: center;
+     
+    }
+  
+  
+    .boton{
+       background-color:#2196f3;
+      text-decoration: none;
+       border-radius: 6px;
+       background: #2196f3;
+       text-align: center;
+       margin: 20px;
+       width: 5%;
+       min-width: 200px;
+       padding: 10px 30px;
+       font-size: 18px;
+       text-align: center;
+       bottom: 45px;
+       cursor:pointer;
+      
+  
+    }
+  
+    .contenedor{
+    
+     width: 300px;
+      background-color :  rgba(255, 255, 255, 0.4);
+      padding: auto;
+      margin: auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      border-radius: 4px;
+      color: var(--colorBlue);
+      border: 2px solid var(--colorBlue) ;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;  
+      border-radius: 3%;
+    }
+  
